@@ -1,18 +1,18 @@
 (*
     Author: Gregor Kr.
-    Date: 2018-10-19
-    Version: 1.1
+    Date: 2018-11-08
+    Version: 1.2
 
-    DEPENDENCIES:
-    * Matevz Fabjancic's awesome SML testing wrapper "sml-unittest", 
-      available here: https://github.com/MatevzFa/sml-unittest
+    SETUP:
+        1. Place naloga1.sml (your excersie solution in the same dir as naloga1-test.sml
+        2. Run the command bellow
 
     USAGE:
-    sml naloga1-test.sml 
+        sml naloga1-test.sml
 *)
 
 (* The unittest.sml file should be in the same dir as this file. *)
-use "unittest.sml";  
+use "../unittest.sml";  
 
 (* Your homework file should be in the same dir as this file as well. *)
 use "naloga1.sml";
